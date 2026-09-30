@@ -1,0 +1,95 @@
+/* Design tokens. All colours are theme-aware CSS custom properties. */
+
+:root {
+  --font-ui: 'Inter Variable', Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono Variable', 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --radius-sm: 4px;
+  --radius: 6px;
+  --radius-lg: 10px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-md: 13px;
+  --fs-lg: 15px;
+
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --drawer-w: min(500px, 44vw);
+}
+
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0a0d13;
+  --bg-elev: #10141c;
+  --bg-elev-2: #151a24;
+  --bg-hover: rgba(255, 255, 255, 0.035);
+  --bg-inset: #0c1017;
+  --border: #1f2632;
+  --border-strong: #2c3544;
+  --text: #e6e9ef;
+  --text-muted: #9aa3b5;
+  --text-faint: #6f788b;
+
+  --accent: #7c9cff;
+  --accent-contrast: #0a0d13;
+  --accent-tint: rgba(124, 156, 255, 0.14);
+  --focus: #9db4ff;
+
+  --info: #5cb4ff;
+  --info-tint: rgba(92, 180, 255, 0.12);
+  --warn: #f5b84a;
+  --warn-tint: rgba(245, 184, 74, 0.13);
+  --warn-row: rgba(245, 184, 74, 0.045);
+  --error: #ff6b78;
+  --error-tint: rgba(255, 107, 120, 0.14);
+  --error-row: rgba(255, 107, 120, 0.07);
+  --ok: #3ecf8e;
+  --ok-tint: rgba(62, 207, 142, 0.13);
+
+  --mark-bg: rgba(250, 204, 21, 0.3);
+  --mark-text: #fff4c2;
+  --shadow: 0 12px 32px rgba(0, 0, 0, 0.45), 0 2px 6px rgba(0, 0, 0, 0.35);
+  --svc-l: 68%;
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f6f7f9;
+  --bg-elev: #ffffff;
+  --bg-elev-2: #f0f2f5;
+  --bg-hover: rgba(15, 23, 42, 0.035);
+  --bg-inset: #f3f4f7;
+  --border: #e2e5ea;
+  --border-strong: #cdd2da;
+  --text: #121722;
+  --text-muted: #525c6e;
+  --text-faint: #6b7385;
+
+  --accent: #3b5bdb;
+  --accent-contrast: #ffffff;
+  --accent-tint: rgba(59, 91, 219, 0.1);
+  --focus: #3b5bdb;
+
+  --info: #1466c4;
+  --info-tint: rgba(20, 102, 196, 0.09);
+  --warn: #975a00;
+  --warn-tint: rgba(186, 117, 0, 0.12);
+  --warn-row: rgba(245, 158, 11, 0.06);
+  --error: #c8203a;
+  --error-tint: rgba(200, 32, 58, 0.09);
+  --error-row: rgba(220, 38, 38, 0.05);
+  --ok: #0c7a4f;
+  --ok-tint: rgba(12, 122, 79, 0.1);
+
+  --mark-bg: rgba(250, 204, 21, 0.45);
+  --mark-text: #3a2a00;
+  --shadow: 0 12px 32px rgba(15, 23, 42, 0.12), 0 2px 6px rgba(15, 23, 42, 0.08);
+  --svc-l: 40%;
+}
