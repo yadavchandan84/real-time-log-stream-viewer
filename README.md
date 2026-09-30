@@ -630,6 +630,15 @@ The challenge encourages AI-first engineering, so here is how it was used:
 
 ---
 
+## 👤 Author
+
+**Chandan Yadav**
+
+📧 [yadavchandan6103@gmail.com](mailto:yadavchandan6103@gmail.com)
+🔗 [GitHub](https://github.com/yadavchandan84) · [LinkedIn](https://www.linkedin.com/in/chandan-yadav-89aaa3253/)
+
 <div align="center">
-Built by <b>Chandan</b> for the Rivyn Frontend Developer Intern challenge · 2026
+
+⭐ If you found this project useful, consider giving it a star.
+
 </div>
